@@ -8,5 +8,6 @@ export default defineConfig({
     outDir: 'public',
     assetsDir: 'assets',
     emptyOutDir: true
-  }
+  },
+  publicDir: false // отключаем копирование из public при сборке
 })
